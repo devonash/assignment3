@@ -174,7 +174,7 @@ div.month {
 
 .bucket1 { 
     overflow:  hidden;
-    background-color: red; /* Visual Aid */
+    background-color: white;
 }
 
 .bucket1 figure {
@@ -191,15 +191,14 @@ div.month {
     padding: 0;
 }
 
-.bucket1 a:nth-child(even) {/* every even numbered <figure> has no margin */
+.bucket1 a:nth-child(even) {
     margin: 0;     
 }
 
 .bucket1 figcaption {
-    background-color:  yellow; /* Visual Aid */
+    background-color:  white;
     font-family: rockwell, sans-serif;
-    color: red;
-    
+    color: #312b1f;
 }
 
 footer {
