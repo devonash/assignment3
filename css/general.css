@@ -172,6 +172,12 @@ div.month {
     padding: 1rem;
 }
 
+.teamonth {
+    float: right;
+    font-size: 20px;
+    margin-right: 10rem;
+}
+
 .bucket1 { 
     overflow:  hidden;
     background-color: red; /* Visual Aid */
