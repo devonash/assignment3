@@ -215,3 +215,25 @@ footer img {
     margin-left: 10px
 }
 
+p.company {
+    color: #312b1f;
+    font-family: rockwell, sans-serif;
+}
+
+p.team {
+    color: #312b1f;
+    font-family: rockwell, sans-serif;
+    font-size: 24px;
+}
+
+p.contact {
+    color: #312b1f;
+    font-family: rockwell, sans-serif;
+    font-size: 24px;
+}
+
+p.info {
+    color: #312b1f;
+    font-family: rockwell, sans-serif;
+}
+    
