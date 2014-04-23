@@ -48,6 +48,8 @@ header {
 }
 
 
+
+
 /************REMOVE THIS IN HTML **********/
 header img:nth-child(2) { 
 display: none;
@@ -174,7 +176,6 @@ div.month {
 
 .teamonth {
     float: right;
-    font-size: 20px;
     margin-right: 10rem;
 }
 
