@@ -47,14 +47,6 @@ header {
 	width: 100%;           
 }
 
-
-
-
-/************REMOVE THIS IN HTML **********/
-header img:nth-child(2) { 
-display: none;
-}
-
 .nav-top {
     clear: both;
     border: 2px solid #5f452b;
