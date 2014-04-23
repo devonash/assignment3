@@ -161,6 +161,38 @@ article {
     margin-bottom: 2rem;
 }
 
+.bucket1 { 
+    overflow:  hidden;
+    background-color: red; /* Visual Aid */
+}
+
+.bucket1 figure {
+    margin: 0;
+    padding: 0;
+}
+
+.bucket1 a,
+.bucket1 a:link,
+.bucket1 a:visited {
+    float: left;
+    width: 45%; /* First and second buckets. 45% x 2 = 90% */ 
+    margin: 0 10% 1.5rem 0; /* First and second bucket right margins. 10% x 2 = 20%  */
+    padding: 0;
+}
+
+/* THE PROBLEM: The sum total of figure + margin + figure must equal 100%. But we are currently over by 10% because all figures have right margin (figure + margin + figure + margin = 110%). We therefore need to use an "nth-child" to target every "even" (2nd, 4th etc.) figure to have no right margin. */
+
+.bucket1 a:nth-child(even) {/* every even numbered <figure> has no margin */
+    margin: 0;     
+}
+
+.bucket1 figcaption {
+    background-color:  yellow; /* Visual Aid */
+    font-family: rockwell, sans-serif;
+    color: red;
+    
+}
+
 footer {
 	background-color: #f2e4b1;
     top: 30rem;
