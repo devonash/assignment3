@@ -161,6 +161,17 @@ article {
     margin-bottom: 2rem;
 }
 
+div.month {
+    font-family: rockwell, sans-serif;
+    color: #312b1f;
+    display: inline-block;
+    border: 4px solid #312b1f;
+    float: center;
+    width: 100%;
+    margin: 0 5% 1.5rem 0;
+    padding: 1rem;
+}
+
 .bucket1 { 
     overflow:  hidden;
     background-color: red; /* Visual Aid */
